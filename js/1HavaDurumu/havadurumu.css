@@ -1,0 +1,63 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: white;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background-image: url(indir.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.weather {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 50px;
+  background: rgba(0, 0, 0, 0.5);
+  height: 100%;
+}
+
+.header {
+  font-size: 33px;
+  padding: 30px;
+}
+.header h1 {
+  color: rgba(246, 246, 246, 0.7);
+}
+
+#searchBar {
+  text-align: center;
+  height: 40px;
+  width: 190px;
+  border: 0;
+  outline: 0;
+  background: none;
+  color: white;
+  border-bottom: 1px solid white;
+}
+.wBody {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+#searchBar::placeholder {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+#city {
+  font-size: 99px;
+  padding-bottom: 15px;
+}
+
+.temp,
+.desc,
+.min {
+  padding-bottom: 30px;
+  font-size: 25px;
+}
